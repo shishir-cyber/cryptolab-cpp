@@ -2,7 +2,7 @@
 
 > Educational cryptography library, cryptanalysis lab, and hybrid post-quantum messenger, written in modern C++20.
 
-![CI](https://github.com/<your-username>/cryptolab-cpp/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/shishir-cyber/cryptolab-cpp/actions/workflows/ci.yml/badge.svg)
 
 **⚠️ The `core` library is for learning only. It is not constant-time and must not be used to protect real data.** The messenger layer uses audited libraries (libsodium, liboqs).
 
@@ -41,10 +41,6 @@ tests/               GoogleTest unit tests (official test vectors)
 docs/                per-algorithm notes, roadmap, threat model
 cmake/               build helpers
 ```
-
-## Background
-
-Built on the topics of NPTEL *Theory and Practice of Modern Cryptography* (IIT Kharagpur, 2026).
 
 ## License
 
