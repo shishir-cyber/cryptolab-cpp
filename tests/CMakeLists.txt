@@ -12,6 +12,14 @@ include(GoogleTest)
 # Add one test file per module, e.g. test_caesar.cpp, test_aes.cpp ...
 add_executable(cryptolab_tests
   test_smoke.cpp
+  test_util.cpp
+  test_shift.cpp
+  test_affine.cpp
+  test_vigenere.cpp
+  test_playfair.cpp
+  test_hill.cpp
+  test_transposition.cpp
+  test_break_classical.cpp
 )
 target_link_libraries(cryptolab_tests PRIVATE cryptolab::core GTest::gtest_main)
 cryptolab_set_warnings(cryptolab_tests)
