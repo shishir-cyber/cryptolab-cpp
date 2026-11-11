@@ -10,7 +10,7 @@
 
 | Layer | Purpose | Status |
 |---|---|---|
-| `core` | From-scratch classical, symmetric, public-key, hash and signature implementations | 🚧 Phase 0 |
+| `core` | From-scratch classical, symmetric, public-key, hash and signature implementations | 🚧 Phase 1 |
 | `attacks` | Cryptanalysis lab: break weak ciphers and flawed constructions | ⏳ Planned |
 | `secure-msg` | Hybrid (X25519 + ML-KEM) end-to-end encrypted messenger | ⏳ Planned |
 
